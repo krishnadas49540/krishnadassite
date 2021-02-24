@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+        <meta charset = "utf-8">
+        <meta name = "viewport"
+        content = "width=device-width,
+        initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+        <link rel = "stylesheet" href = "style36.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Home</title>
+        <link rel = "stylesheet" href = "plugins/dist/aos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "plugins/dist/aos.css">
+        <style>
+          img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+              display: none;
+          }
+      </style>
+    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script>
+$(document).ready(function() {
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.attributes.href.value.substr(0, 1) === '#') {
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function() {
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+      return false;
+    } // End if
+  });
+});
+    </script>
+    <body>
+      <!--<link rel = "stylesheet" href = "style.css"> -->
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#div1">Home</a>
+          <a href="https://krishnadaslessons.ml/contact">Contact</a>
+          <a href="https://krishnadaslessons.ml/projects">Projects</a>
+          
+        </div>
+      </div>
+        <div id = "navigation">
+            <div id = "onHover">
+              <a href = "#div1">
+                <p>Home</p>
+              </a>
+            </div>
+            <div id = "onHover2">
+              <a href = "https://krishnadaslessons.ml/contact">
+                <p>Contact</p>
+              </a>
+            </div>
+            <div id = "onHover3">
+                <a href = "https://krishnadaslessons.ml/projects">
+                  <p>Projects</p>
+                </a>
+            </div>
+            <a class="clickable">
+              <div id = "icon" onclick = "openNav()">
+                <i class = "fa fa-bars" ></i>
+              </div>
+            </a>
+        </div>
+        <div class="parallax" id = "div1" onclick = "closeNav()">
+            
+            <div class = container>
+            
+                <div id = initialText>Krishna Das has videos that are:</div><div id=text></div>
+            </div>
+        </div>
+        <div id = "div2" onclick = "closeNav()">
+          <div id="item" data-aos="fade-right" data-aos-once = "true">
+          <div id = "videoObject">
+            <video oncontextmenu="return false;" src="juijoiijio.mp4" autoplay loop playsinline muted></video>
+          </div>
+        </div>
+          <!--<div id = "forcebox"></div>-->
+        <div id = "container2">
+          <div id = "slideInText" data-aos = "fade-left" data-aos-once = "true">Krishna Das enables you to watch high quality video tutorials when you need them.</div>
+        </div>
+        </div>
+        
+        <div id = "div3" onclick = "closeNav()">
+            2020 Krishna Das
+        </div>
+        <!--
+        <div>
+            <h2>Div 4</h2>
+        </div>
+        -->
+        <script src = "main5.js"></script>
+        <script src = "plugins/dist/aos.js"></script>
+        <script type = "text/javascript">
+          AOS.init({
+            duration: 1500,
+            delay: 600,
+        })
+        </script>
+    </body>
+</html>
